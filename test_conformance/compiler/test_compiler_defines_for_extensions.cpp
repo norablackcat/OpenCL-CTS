@@ -24,6 +24,7 @@
 const char *known_extensions[] = {
     "cl_khr_byte_addressable_store",
     "cl_khr_3d_image_writes",
+    "cl_khr_expect_assume",
     "cl_khr_fp16",
     "cl_khr_fp64",
     "cl_khr_global_int32_base_atomics",
@@ -93,7 +94,7 @@ const char *known_extensions[] = {
 };
 
 size_t num_known_extensions = ARRAY_SIZE(known_extensions);
-size_t first_API_extension = 31;
+size_t first_API_extension = 32;
 
 const char *known_embedded_extensions[] = {
     "cles_khr_int64",
